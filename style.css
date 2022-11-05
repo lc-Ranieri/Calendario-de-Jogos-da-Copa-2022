@@ -43,6 +43,7 @@ body {
   background-image: var(--background);
   background-position: center;
   background-size: cover;
+  background-attachment: fixed;
   background-repeat: no-repeat;
 }
 body * {
@@ -105,6 +106,9 @@ header {
 .card ul li + li {
   padding-top: 25px;
   border-top: 1px solid var(--card-division);
+}
+.card ul li img {
+  height: 50px;
 }
 .card ul li strong {
   color: var(--card-text2);
