@@ -5,7 +5,7 @@
 </p>
 <br>
 <p align="center">
-  <img alt="preview" src=".github/project.png" width="100%">
+  <img alt="preview" src=".github/pic_readme.png" width="100%">
 </p>
 
 ## ⚙️ Tecnologias
@@ -14,6 +14,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - HTML e CSS
 - JavaScript e JSON
+- Git e Github
 
 ## 💻 Projeto
 
