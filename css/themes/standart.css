@@ -1,0 +1,9 @@
+.standart,
+:root:has(#standart:checked) {
+  --card-color: #fffbf7;
+  --card-detail: #9a1032;
+  --card-text1: #8f8c8a;
+  --card-text2: #9a1032;
+  --card-division: #464646;
+  --background: url(./assets/backgrounds/standart.png);
+}

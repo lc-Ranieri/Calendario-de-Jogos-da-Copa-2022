@@ -1,0 +1,9 @@
+.light,
+:root:has(#light:checked) {
+  --card-color: #cfcfcf;
+  --card-detail: #479dff;
+  --card-text1: #0077ff;
+  --card-text2: #525252;
+  --card-division: #464646;
+  --background: url(./assets/backgrounds/light.png);
+}

@@ -1,3 +1,28 @@
+const colorThemes = document.querySelectorAll('[name="theme"]');
+
+const storeTheme = function (theme) {
+  localStorage.setItem("theme", theme)
+};
+
+const setTheme = function () {
+  const activeTheme = localStorage.getItem("theme");
+  colorThemes.forEach((themeOption) => {
+    if (themeOption.id === activeTheme) {
+      themeOption.checked = true;
+    }
+  });
+  document.documentElement.className = activeTheme;
+};
+
+colorThemes.forEach((themeOption) => {
+  themeOption.addEventListener("click", () => {
+    storeTheme(themeOption.id);
+    document.documentElement.className = themeOption.id;
+  });
+});
+
+document.onload = setTheme();
+
 function createGame(team1, time, team2) {
   return `
   <li>
@@ -7,6 +32,7 @@ function createGame(team1, time, team2) {
   </li>
   `
 }
+
 let delay = -0.3;
 function createCard(date, day, games) {
   delay = delay + 0.3;
@@ -19,6 +45,7 @@ function createCard(date, day, games) {
     </div>
   `
 }
+
 document.querySelector("#cards").innerHTML =
   createCard("20/11", "quinta", createGame("qatar", "13:00", "ecuador")) +
   createCard("21/11", "sexta", createGame("england", "10:00", "iran") + createGame("senegal", "13:00", "netherlands") + createGame("usa", "16:00", "wales")) +

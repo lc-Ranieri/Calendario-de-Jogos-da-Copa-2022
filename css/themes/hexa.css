@@ -1,0 +1,9 @@
+.hexa,
+:root:has(#hexa:checked) {
+  --card-color: #003816;
+  --card-detail: #ffdf00;
+  --card-text1: #0055ff;
+  --card-text2: #ffdf00;
+  --card-division: #0055ff;
+  --background: url(./assets/backgrounds/hexa.png);
+}

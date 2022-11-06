@@ -1,0 +1,9 @@
+.dark,
+:root:has(#dark:checked) {
+  --card-color: #1d1c19;
+  --card-detail: #746615;
+  --card-text1: #d0b833;
+  --card-text2: #c3c3c3;
+  --card-division: #464646;
+  --background: url(./assets/backgrounds/dark.png);
+}
