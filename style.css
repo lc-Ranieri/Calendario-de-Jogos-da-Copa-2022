@@ -8,10 +8,10 @@
   justify-content: center;
   align-items: center;
   border: 0;
-  padding: 20px;
+  padding: 20px 20px;
   margin-inline: auto;
   display: flex;
-  gap: 2rem;
+  gap: 50px;
   background: var(--card-color);
   border-bottom: 3px solid var(--card-detail);
   border-radius: 0px 0px 6px 6px;
