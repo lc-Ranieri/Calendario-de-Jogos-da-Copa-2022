@@ -3,38 +3,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-/*:root {
-  --card-color: #fffbf7;
-  --card-detail: #9a1032;
-  --card-text1: #8f8c8a;
-  --card-text2: #9a1032;
-  --card-division: #464646;
-  --background: url(./assets/backgrounds/standart.png);
-}
-body.light {
-  --card-color: #cfcfcf;
-  --card-detail: #479dff;
-  --card-text1: #0077ff;
-  --card-text2: #525252;
-  --card-division: #464646;
-  --background: url(./assets/backgrounds/light.png);
-}
-body.dark {
-  --card-color: #1d1c19;
-  --card-detail: #746615;
-  --card-text1: #d0b833;
-  --card-text2: #c3c3c3;
-  --card-division: #464646;
-  --background: url(./assets/backgrounds/dark.png);
-}
-body.hexa {
-  --card-color: #003816;
-  --card-detail: #ffdf00;
-  --card-text1: #0055ff;
-  --card-text2: #ffdf00;
-  --card-division: #0055ff;
-  --background: url(./assets/backgrounds/hexa.png);
-}*/
 .choose-theme > fieldset {
   width: fit-content;
   justify-content: center;
@@ -43,7 +11,7 @@ body.hexa {
   padding: 20px;
   margin-inline: auto;
   display: flex;
-  gap: 50px;
+  gap: 2rem;
   background: var(--card-color);
   border-bottom: 3px solid var(--card-detail);
   border-radius: 0px 0px 6px 6px;
