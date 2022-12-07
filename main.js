@@ -60,8 +60,9 @@ document.querySelector("#cards").innerHTML =
   //createCard("30/11", "quarta", createGame("tunisia", "12:00", "france") + createGame("australia", "12:00", "denmark") + createGame("poland", "16:00", "argentina") + createGame("saudi-arabia", "16:00", "mexico")) +
   //createCard("01/12", "quinta", createGame("croatia", "12:00", "belgium") + createGame("canada", "12:00", "morocco") + createGame("japan", "16:00", "spain") + createGame("costa-rica", "16:00", "germany")) +
   //createCard("02/12", "sexta", createGame("south-korea", "12:00", "portugal") + createGame("ghana", "12:00", "uruguay") + createGame("serbia", "16:00", "switzerland") + createGame("cameroon", "16:00", "brazil")) +
-  createCard("03/12", "sábado", createGame("netherlands", "12:00", "usa") + createGame("argentina", "16:00", "australia")) +
-  createCard("04/12", "domingo", createGame("france", "12:00", "poland") + createGame("england", "16:00", "senegal")) +
-  createCard("05/12", "segunda", createGame("japan", "12:00", "croatia") + createGame("brazil", "16:00", "south-korea")) +
-  createCard("06/12", "terça", createGame("morocco", "12:00", "spain") + createGame("portugal", "16:00", "switzerland"))
-  //createCard("/12", "", createGame("", "12:00", "") + createGame("", "12:00", "") + createGame("", "16:00", "") + createGame("", "16:00", "")) +
+  //createCard("03/12", "sábado", createGame("netherlands", "12:00", "usa") + createGame("argentina", "16:00", "australia")) +
+  //createCard("04/12", "domingo", createGame("france", "12:00", "poland") + createGame("england", "16:00", "senegal")) +
+  //createCard("05/12", "segunda", createGame("japan", "12:00", "croatia") + createGame("brazil", "16:00", "south-korea")) +
+  //createCard("06/12", "terça", createGame("morocco", "12:00", "spain") + createGame("portugal", "16:00", "switzerland")) +
+  createCard("09/12", "sexta", createGame("croatia", "12:00", "brazil") + createGame("netherlands", "16:00", "argentina")) +
+  createCard("10/12", "sábado", createGame("morocco", "12:00", "portugal") + createGame("england", "16:00", "france"))
