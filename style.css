@@ -36,9 +36,9 @@
 #dark {
   --radio-color: #746615;
 }
-#hexa {
+/*#hexa {
   --radio-color: #008000;
-}
+}*/
 #logo {
   margin: 50px;
 }
@@ -69,7 +69,7 @@
   --card-division: #464646;
   --background: url(./assets/backgrounds/dark.png);
 }
-.hexa,
+/*.hexa,
 :root:has(#hexa:checked) {
   --card-color: #003816;
   --card-detail: #ffdf00;
@@ -77,7 +77,7 @@
   --card-text2: #ffdf00;
   --card-division: #0055ff;
   --background: url(./assets/backgrounds/hexa.png);
-}
+}*/
 ul {
   list-style: none;
 }
